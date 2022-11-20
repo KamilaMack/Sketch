@@ -4,14 +4,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.082), black);
+    background: linear-gradient(rgba(40, 39, 39, 0.082), black);
   }
   .board {
     width: 80%;
     height: 80%;
     display: grid;
     background-color: white;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    box-shadow: inset 0 -3em 3em rgba(40, 39, 39, 0.1), 0 0 0 2px rgb(255, 255, 255),
       0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   }
   .board:hover {
@@ -65,10 +65,10 @@
     color: white;
   }
   .randomButton {
-    background: linear-gradient(0.25turn, #f65cfc, #ebf8e1, #583cf6);
+    background: linear-gradient(0.25turn, #eb57f0, #ebf8e1, #4f36db);
   }
   .randomButton:hover {
-    background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
+    background: linear-gradient(0.25turn, #47c237, #c8d2c1, #b1ca24);
   }
   .erasorButton {
     background-color: rgb(255, 255, 255);
